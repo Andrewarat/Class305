@@ -1,0 +1,19 @@
+/* Configuracion */
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,700;1,400;1,500&display=swap');
+
+:root{
+    --coloHeader: #000;   
+    --fuente:'Ubuntu', sans-serif;
+    --colorFooter: #3b0505;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--fuente);
+    text-decoration: none;
+    list-style: none;
+
+}
