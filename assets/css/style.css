@@ -342,7 +342,7 @@ img{
     height: 100px;
     display: block;
     margin: 0 auto;
-    color: #311e8d;
+    color: #777195;
     font-size: 50px;
     font-family: var(--fuente);
     line-height: 100px;
@@ -357,7 +357,7 @@ img{
 }
 
 .frontpage__links-description{
-    font-size: 114px;
+    font-size: 14px;
     color: #2c2c2c;
 
 }
@@ -366,7 +366,7 @@ img{
     padding: 0 5%;
 
 }
-
+/* estilos a las listas*/
 .list__style{
     list-style: none;
     padding: 0;
@@ -426,7 +426,7 @@ img{
     letter-spacing: .5px;
     margin-bottom: 12px;
     background: linear-gradient(120deg, #1c2b4c 20.70%,#4b5cb4 50.20%, #2b80cb 80.50%);
-    -webkit-background-clip: text;
+    -webkit-background-clip: transparent;
     -webkit-text-fill-color: transparent;  
     display: inline-block;
     background-clip: #588fbf; 
@@ -644,6 +644,7 @@ img{
     border-color: #2b80cb;
     background-color: #fff;
     color: #020202;
+    
 }
 .footer__menu{
     padding: 0 15px;
@@ -710,5 +711,73 @@ img{
     line-height: 30px;
     color: #fff;
     letter-spacing: 1px;
+
+}
+/* Movies ]internacionales */
+#internacional{
+    display: grid;
+    background-color: #4f7495;
+    width: 100vw;
+    min-height: 100vh;
+    place-content: center;
+    margin-top: 100px;
+    padding: 0;
+    margin: 0;
+
+}
+.movies__main{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 100vw;
+    background-color: #fff;
+}
+.movies{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    flex-wrap: wrap;
+    align-self: center;
+    width: 100%;
+    padding-bottom: 70px;
+}
+
+.movie__internacional{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+    background-color: #fff;
+    padding: 15px 20px 100px;
+    height: 100%;
+    width: 25%;
+    border-radius: 10px;
+    box-shadow:  0 5px 20px rgba(213, 213, 213, 0.442);
+    transition: .3s;
+}
+.movie__internacional:hover{
+    box-shadow: 0 5px 10px rgba(27, 25, 25, 0.2);
+    transform: translateY(-15px);
+
+
+    
+}
+
+.nameMovie{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: 0 auto;
+}
+.nameMovie h3{
+    font-size: 2rem;
+    margin-top: 70px;
+    margin: 0 auto;
+
+}
+
+.nameMovie span{
+    font-size: 1.3rem;
     
 }
