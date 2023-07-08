@@ -30,6 +30,7 @@ header{
     position: absolute;
     top: 0;
     left: 0;
+    border-radius: 10px;
 }
 
 .header-superior{
@@ -39,6 +40,7 @@ header{
     align-items: center;
     justify-content: space-between;
     padding-top:5px;
+    border-radius: 10px;
 
 }
 
@@ -50,7 +52,7 @@ header{
     height: 70px;
     padding: 0px 20px 20px;
     background: #020202;
-
+    border-radius: 10px;
 }
 /* .menu{
     max-width: 1200px;
@@ -89,6 +91,7 @@ nav > ul > li > a:hover{
 #selector{
     transform: scale(1.1);
     background-color: #14d8f2;
+    border-radius: 10px;
 }
 /* Submenu */
 nav ul li ul{
@@ -105,17 +108,20 @@ nav ul li ul{
     box-shadow: 0px 0px 0px 10px rgba(0, 0, 0, 0.5);
     transition: all 300ms ease;
     z-index: 10;
+    border-radius: 10px;
 }
 nav ul li:hover ul{
     visibility: visible;
     opacity: 1;
     top: 70px;
+    border-radius: 10px;
 }
 /* esta en duda*/
 nav > ul > li > a:hover{
     transform: scale(1,1);
     background-color: #14d8f2;
     box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
 }
 nav ul li ul::before{
     content: '';
@@ -148,6 +154,7 @@ nav ul li ul li a:hover{
     padding-left: 30px;
     font-size: 14px;
     box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
 
 }
 nav > ul > li:first-child > a{
