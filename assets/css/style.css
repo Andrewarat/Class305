@@ -491,6 +491,7 @@ img{
     width: 100%;
     max-width: 1024px;
     padding: 0 2em;
+    
 }
 
 .banner__image{
@@ -500,6 +501,7 @@ img{
     background-image: url('../img/peliculas_2010-b.gif');
     background-size: cover;
     background-position: center;
+    border-radius: 10px;
 }
 
 .hero__elements{
@@ -511,6 +513,7 @@ img{
     display: block;
     text-align: center;
     padding-top: 15%;
+   
 }
 
 .hero__title{
@@ -543,16 +546,18 @@ img{
     padding: 13px 40px;
     font-size: 18px;
     opacity: 0.9;
+    border-radius: 10px;
 }
 .hero__action:hover{
     opacity: 1;
     text-decoration: none;
+   
 
 }
 .hero__bottom{
     text-decoration: none;
     color: #181818;
-    border-radius: 10px;
+    
 
 }
 .gray__bg{
